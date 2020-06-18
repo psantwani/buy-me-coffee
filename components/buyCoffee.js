@@ -56,6 +56,9 @@ const BuyCoffee = ({ messages }) => {
                     <li onClick={() => changeNumber(2)} className={activeNumber === 2 ? 'number active' : 'number'}>
                         2
                     </li>
+                    <li onClick={() => changeNumber(3)} className={activeNumber === 3 ? 'number active' : 'number'}>
+                        3
+                    </li>
                     <li className="button">
                         <a href={`${profileData.gumroadProductURL}?quantity=${activeNumber}&wanted=true`}>
                             Support ${activeNumber * 5}
