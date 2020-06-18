@@ -59,18 +59,17 @@ const BuyCoffee = ({ messages }) => {
                     <li onClick={() => changeNumber(3)} className={activeNumber === 3 ? 'number active' : 'number'}>
                         3
                     </li>
-                    <li className="button">
+                    {/* <li className="button">
                         <a href={`${profileData.gumroadProductURL}?quantity=${activeNumber}&wanted=true`}>
                             Support ${activeNumber * 5}
                         </a>
-                    </li>
+                    </li> */}
                 </ul>
-
-                {/* <ul>
-                    <li>
-                        <a href="https://gum.co/rxqNq">Buy my coffee</a>
-                    </li>
-                </ul> */}
+                <div className="button">
+                    <a href={`${profileData.gumroadProductURL}?quantity=${activeNumber}&wanted=true`}>
+                        Support ${activeNumber * 5}
+                    </a>
+                </div>
             </div>
         </div>
     );
