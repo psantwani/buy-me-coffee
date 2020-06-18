@@ -34,7 +34,7 @@ const BuyCoffee = ({ messages }) => {
     return (
         <div className="buy-coffee">
             <div className="supporters">
-                <AiOutlineHeart fill="red" />
+                <AiOutlineHeart fill="red" style="margin-top: 4px;" />
                 <span>{messages.length} supporters. be one of them.</span>
             </div>
             <div className="coffee-options">
@@ -44,7 +44,7 @@ const BuyCoffee = ({ messages }) => {
                     <li className="coffee-icon">
                         <GiCoffeeCup size={24} />
                     </li>
-                    <li className="coffee-icon">
+                    <li className="coffee-icon" style="margin: 0 5px 0 5px!important;">
                         <AiOutlineClose size={20} />
                     </li>
                     <li className="custom-number">
