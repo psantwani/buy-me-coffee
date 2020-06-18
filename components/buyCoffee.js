@@ -44,7 +44,7 @@ const BuyCoffee = ({ messages }) => {
                     <li className="coffee-icon">
                         <GiCoffeeCup size={24} />
                     </li>
-                    <li className="coffee-icon" style="margin: 0 5px 0 5px!important;">
+                    <li className="coffee-icon">
                         <AiOutlineClose size={20} />
                     </li>
                     <li className="custom-number">
