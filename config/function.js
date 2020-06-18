@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaProductHunt, FaTwitter } from 'react-icons/fa';
 import { FiGithub } from 'react-icons/fi';
-import { AiOutlineRocket, AiOutlineInstagram, AiFillFacebook, AiOutlineAlert, Ai } from 'react-icons/ai';
+import { AiOutlineRocket, AiOutlineInstagram, AiFillFacebook, AiOutlineAlert, AiFillLinkedIn } from 'react-icons/ai';
 
 export const getIcon = function(type){
     if(type === 'github'){
