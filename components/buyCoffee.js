@@ -34,7 +34,7 @@ const BuyCoffee = ({ messages }) => {
     return (
         <div className="buy-coffee">
             <div className="supporters">
-                <AiOutlineHeart fill="red" style="margin-top: 4px;" />
+                <AiOutlineHeart fill="red" />
                 <span>{messages.length} supporters. be one of them.</span>
             </div>
             <div className="coffee-options">
