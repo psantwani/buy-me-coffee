@@ -10,7 +10,7 @@ const ProfileBox = () => {
         <div className="profile">
             <div className="profile-head">
                 <div className="profile-photo">
-                    <img src="https://media-exp1.licdn.com/dms/image/C5603AQFQeQsW_30iZQ/profile-displayphoto-shrink_400_400/0?e=1597881600&v=beta&t=VVwhDdf4peyDaRIuS-Ck6BXq5_2iApILTUNWR3Jm5YA" alt="" />
+                    <img src="https://media-exp1.licdn.com/dms/image/C4E03AQFEuU4nwFvVaw/profile-displayphoto-shrink_400_400/0/1612769629475?e=1623888000&v=beta&t=N-g-Ekr60mCWME3OEK8Pqzr5vpyzzkZCYUFBzhCFg6Q" alt="" />
                 </div>
                 <h2>{profileData.name}</h2>
                 <small>{profileData.subtitle}</small>
